@@ -2,9 +2,9 @@
 
 # If submitting to a different project to your default, uncomment line below 
 # and change project code as appropriate; also set shortpath below
-# project: x77
+project: zn44
 # Force payu to always find, and save, files in this scratch project directory
-# shortpath: /scratch/v45
+shortpath: /scratch/zn44
 
 # Model software version
 modules:
@@ -16,10 +16,12 @@ modules:
 queue: normalsr
 ncpus: 2
 walltime: 1:00:00
-jobname: single_column
+jobname: run_wombat_full_SOTS
 
 model: access-om3
-exe: access-om3-MOM6
+#older exe: /g/data/jk72/ao2582/spack/1.1/release/linux-x86_64_v4/access3-2026.03.000-uplxcxhwfyj5k2lhofuoqrcokufqp5q7/bin/access-om3-MOM6
+# old exe: /g/data/jk72/ao2582/spack/1.1/release/linux-x86_64_v4/access3-2026.03.000-pjqqm7zlwhcs6ge7gecc3tn5ajc37acj/bin/access-om3-MOM6
+exe: /g/data/jk72/ao2582/spack/1.1/release/linux-x86_64_v4/access3-2026.03.000-soybn3apmf4tmft5mqwm4nra3jiqicv4/bin/access-om3-MOM6
 input:
     - /g/data/vk83/prerelease/configurations/inputs/access-om3/mom/grids/mosaic/share/2024.05.08/grid_spec.nc
     - /g/data/vk83/prerelease/configurations/inputs/access-om3/mom/grids/vertical/global.25km/2026.03.16/ocean_vgrid.nc
@@ -35,7 +37,7 @@ metadata:
     enable: false
 manifest:
   reproduce:
-    exe: true
+    exe: false
 
 platform:
     nodesize: 104
