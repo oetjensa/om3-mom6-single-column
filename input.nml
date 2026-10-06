@@ -21,9 +21,9 @@
          do_generic_WOMBATmid=.true. /
 
 &generic_wombatmid_nml
-         do_bac_remin=.false.
+         do_bac_remin=.true.
          do_constant_sinking=.true.
          do_check_c_conserve=.true. 
-         do_emulator_shadow = .false.
-         use_remin_emulator = .true.
+         do_emulator_shadow = .true.
+         use_remin_emulator = .false.
          remin_emulator_path = '/g/data/jk72/ao2582/ACCESS/wombat_dev/ACCESS-OM3/ftorch_model/model/remin_emulator_ts.pt' /
