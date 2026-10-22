@@ -21,4 +21,5 @@
          do_generic_WOMBATlite=.true. /
 
 &generic_wombatlite_nml
+         do_emulator_shadow=.false.
 /

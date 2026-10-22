@@ -138,73 +138,73 @@ diag_table:
             output_freq_units: months  # time units for output: years, months, days, hours, minutes, or seconds
             new_file_freq:  # optional integer: frequency (in new_file_freq_units) for closing the existing file, and creating a new file
         fields:
-            areacello: # Surface area of tracer (T) cells
-            areacello_cu: # Surface area of x-direction flow (U) cells
-            areacello_cv: # Surface area of y-direction flow (V) cells
-            areacello_bu: # Surface area of B-grid flow (Q) cells
-            dxt: # Delta(x) at thickness/tracer points (meter)
-            dyt: # Delta(y) at thickness/tracer points (meter)
-            geolat_c: # Latitude of corner (Bu) points
-            geolat: # Latitude of tracer (T) points
-            geolat_u: # Latitude of zonal velocity (Cu) points
-            geolat_v: # Latitude of meridional velocity (Cv) points
-            geolon_c: # Longitude of corner (Bu) points
-            geolon: # Longitude of tracer (T) points
-            geolon_u: # Longitude of zonal velocity (Cu) points
-            geolon_v: # Longitude of meridional velocity (Cv) points
-            deptho: # Depth of the ocean at tracer points
-            wet: # 0 if land, 1 if ocean at tracer points
-            wet_c: # 0 if land, 1 if ocean at corner (Bu) points
-            wet_u: # 0 if land, 1 if ocean at zonal velocity (Cu) points
-            wet_v: # 0 if land, 1 if ocean at meridional velocity (Cv) points
-            Coriolis: # Coriolis parameter at corner (Bu) points
-            sin_rot: # sine of the clockwise angle of the ocean grid north to true north
-            cos_rot: # cosine of the clockwise angle of the ocean grid north to true north
-            dxCu: # dxCu is delta x at u points [L ~> m]
-            dyCu: # dyCu is delta y at u points [L ~> m]
-            dxCv: # dxCv is delta x at v points [L ~> m]
-            dyCv: # dyCv is delta y at v points [L ~> m]
-            dyCuo: # Open meridional grid spacing at u points (meter)
-            dxCvo: # Open zonal grid spacing at v points (meter)
+            #areacello: # Surface area of tracer (T) cells
+            #areacello_cu: # Surface area of x-direction flow (U) cells
+            #areacello_cv: # Surface area of y-direction flow (V) cells
+            #areacello_bu: # Surface area of B-grid flow (Q) cells
+            #dxt: # Delta(x) at thickness/tracer points (meter)
+            #dyt: # Delta(y) at thickness/tracer points (meter)
+            #geolat_c: # Latitude of corner (Bu) points
+            #geolat: # Latitude of tracer (T) points
+            #geolat_u: # Latitude of zonal velocity (Cu) points
+            #geolat_v: # Latitude of meridional velocity (Cv) points
+            #geolon_c: # Longitude of corner (Bu) points
+            #geolon: # Longitude of tracer (T) points
+            #geolon_u: # Longitude of zonal velocity (Cu) points
+            #geolon_v: # Longitude of meridional velocity (Cv) points
+            #deptho: # Depth of the ocean at tracer points
+            #wet: # 0 if land, 1 if ocean at tracer points
+            #wet_c: # 0 if land, 1 if ocean at corner (Bu) points
+            #wet_u: # 0 if land, 1 if ocean at zonal velocity (Cu) points
+            #wet_v: # 0 if land, 1 if ocean at meridional velocity (Cv) points
+            #Coriolis: # Coriolis parameter at corner (Bu) points
+            #sin_rot: # sine of the clockwise angle of the ocean grid north to true north
+            #cos_rot: # cosine of the clockwise angle of the ocean grid north to true north
+            #dxCu: # dxCu is delta x at u points [L ~> m]
+            #dyCu: # dyCu is delta y at u points [L ~> m]
+            #dxCv: # dxCv is delta x at v points [L ~> m]
+            #dyCv: # dyCv is delta y at v points [L ~> m]
+            #dyCuo: # Open meridional grid spacing at u points (meter)
+            #dxCvo: # Open zonal grid spacing at v points (meter)
 
     '3d fields on native':
         defaults:  # these can be overridden for individual fields below
             file_name_dimension: 3d  # descriptor for filename, e.g. 3d, 2d, scalar
             reduction_method: mean
         fields:
-            e: # Interface height relative to mean sea level
-            thkcello: # Cell Thickness
+            #e: # Interface height relative to mean sea level
+            #thkcello: # Cell Thickness
             thetao: # Potential Temperature
             so: # Salinity
-            uo: # u velocity
-            vo: # v velocity
-            Kd_interface: # Total diapycnal diffusivity at interfaces
+            #uo: # u velocity
+            #vo: # v velocity
+            #Kd_interface: # Total diapycnal diffusivity at interfaces
 
     '2d fields':
         defaults:  # these can be overridden for individual fields below
             file_name_dimension: 2d  # descriptor for filename, e.g. 3d, 2d, scalar
             reduction_method: mean
         fields:
-            ePBL_h_ML: # Surface boundary layer depth
-            h_ML: # Surface mixed layer depth based on active turbulence
+            #ePBL_h_ML: # Surface boundary layer depth
+            #h_ML: # Surface mixed layer depth based on active turbulence
             mlotst: # Mixed layer depth (delta rho = 0.03) MLD_003
-            tauuo: # surface_downward_x_stress taux
-            tauvo: # surface_downward_y_stress tauy
-            ustar: # Surface friction velocity = [(gustiness + tau_magnitude)/rho0]^(1/2)
-            wfo: # Net surface water flux (precip+melt+lrunoff+ice calving-evap) PRCmE
-            pso: # Pressure at ice-ocean or atmosphere-ocean interface p_surf
-            evs: # Evaporation/condensation at ocean surface (evaporation is negative) evap
-            prlq: # Liquid precipitation into ocean lprec
-            prsn: # Frozen precipitation into ocean fprec
-            rsntds: # Shortwave radiation flux into ocean SW
-            rlntds: # Longwave radiation flux into ocean LW
-            hfsso: # Sensible heat flux into ocean sensible
-            friver: # Liquid runoff (rivers) into ocean lrunoff
-            ficeberg: # Frozen runoff (calving) and iceberg melt into ocean frunoff
-            hfrunoffds: # Heat content (relative to 0C) of liquid+solid runoff into ocean
-            hfrainds: # Heat content (relative to 0degC) of liquid+frozen precip entering ocean
-            net_heat_coupler: # Surface ocean heat flux from SW+LW+latent+sensible+seaice_melt_heat (via the coupler)
-            hfds: # Surface ocean heat flux from SW+LW+lat+sens+mass transfer+frazil+restore+seaice_melt_heat or flux adjustments net_heat_surface
+            #tauuo: # surface_downward_x_stress taux
+            #tauvo: # surface_downward_y_stress tauy
+            #ustar: # Surface friction velocity = [(gustiness + tau_magnitude)/rho0]^(1/2)
+            #wfo: # Net surface water flux (precip+melt+lrunoff+ice calving-evap) PRCmE
+            #pso: # Pressure at ice-ocean or atmosphere-ocean interface p_surf
+            #evs: # Evaporation/condensation at ocean surface (evaporation is negative) evap
+            #prlq: # Liquid precipitation into ocean lprec
+            #prsn: # Frozen precipitation into ocean fprec
+            #rsntds: # Shortwave radiation flux into ocean SW
+            #rlntds: # Longwave radiation flux into ocean LW
+            #hfsso: # Sensible heat flux into ocean sensible
+            #friver: # Liquid runoff (rivers) into ocean lrunoff
+            #ficeberg: # Frozen runoff (calving) and iceberg melt into ocean frunoff
+            #hfrunoffds: # Heat content (relative to 0C) of liquid+solid runoff into ocean
+            #hfrainds: # Heat content (relative to 0degC) of liquid+frozen precip entering ocean
+            #net_heat_coupler: # Surface ocean heat flux from SW+LW+latent+sensible+seaice_melt_heat (via the coupler)
+            #hfds: # Surface ocean heat flux from SW+LW+lat+sens+mass transfer+frazil+restore+seaice_melt_heat or flux adjustments net_heat_surface
 
     '3d prognostic BGC fields':
         defaults:  # these can be overridden for individual fields below
@@ -212,21 +212,21 @@ diag_table:
             reduction_method: mean
             module_name: generic_wombatlite
         fields:
-            alk:
-            caco3:
+            #alk:
+            #caco3:
             det:
-            detfe:
-            dic:
-            dicr:
-            dicp:
+            #detfe:
+            #dic:
+            #dicr:
+            #dicp:
             fe:
-            no3:
+            #no3:
             o2:
             phy:
-            phyfe:
-            pchl:
+            #phyfe:
+            #pchl:
             zoo:
-            zoofe:
+            #zoofe:
 
     '3d diagnostic BGC fields':
         defaults:  # these can be overridden for individual fields below
@@ -234,25 +234,25 @@ diag_table:
             reduction_method: mean
             module_name: generic_wombatlite
         fields:
-            npp3d:
-            zsp3d:
-            radbio:
+            #npp3d:
+            #zsp3d:
+            #radbio:
             #radmid:
             #radmld:
-            phy_mu:
+            #phy_mu:
             #phy_muax:
             #phy_kni:
             #phy_kfe:
-            phy_lpar:
-            phy_lnit:
-            phy_lfer:
-            phy_dfeupt:
+            #phy_lpar:
+            #phy_lnit:
+            #phy_lfer:
+            #phy_dfeupt:
             #phy_feupreg:
             #phy_fedoreg:
-            phygrow:
-            phymorl:
-            phymorq:
-            pchl_mu:
+            #phygrow:
+            #phymorl:
+            #phymorq:
+            #pchl_mu:
             #feIII:
             #felig:
             #fecol:
@@ -260,14 +260,14 @@ diag_table:
             #fescaven:
             #fescadet:
             #fescoag2det:
-            fesources:
-            fesinks:
-            htotal:
-            omega_ara:
-            omega_cal:
+            #fesources:
+            #fesinks:
+            #htotal:
+            #omega_ara:
+            #omega_cal:
             #co3:
             #co2_star:
-            pic2poc:
+            #pic2poc:
             zooeps:
             zoograzphy:
             zoograzdet:
@@ -279,7 +279,7 @@ diag_table:
             #zooegesdet:
             #zoomorl:
             #zoomorq:
-            #reminr:
+            reminr:
             detremi:
             #dissratcal:
             #dissratara:
@@ -289,7 +289,7 @@ diag_table:
             #aradiss:
             #pocdiss:
             det_vmove:
-            caco3_vmove:
+            #caco3_vmove:
 
     '2d diagnostic BGC fields':
         defaults:  # these can be overridden for individual fields below
@@ -297,7 +297,7 @@ diag_table:
             reduction_method: mean
             module_name: generic_wombatlite
         fields:
-            pco2:
+            #pco2:
             #det_sed_remin:
             #det_sed_depst:
             #detfe_sed_remin:
@@ -305,11 +305,11 @@ diag_table:
             #caco3_sed_remin:
             #caco3_sed_depst:
             #fbury:
-            o2_stf:
+            #o2_stf:
             #no3_stf:
             #fe_stf:
-            dic_stf:
-            dic_csurf:
+            #dic_stf:
+            #dic_csurf:
             #dicp_stf:
             #dicp_csurf:
             #alk_stf:
@@ -322,9 +322,9 @@ diag_table:
             #dic_vstf:
             #dicp_vstf:
             #alk_vstf:
-            det_sediment:
-            detfe_sediment:
-            caco3_sediment:
+            #det_sediment:
+            #detfe_sediment:
+            #caco3_sediment:
             zeuphot:
             #sedtemp:
             #seddep:
