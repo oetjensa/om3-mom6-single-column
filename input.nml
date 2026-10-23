@@ -23,5 +23,4 @@
 &generic_wombatlite_nml
          do_check_c_conserve=.true.
          do_emulator_shadow=.true.
-         remin_emulator_path= '/g/data/jk72/ao2582/PyTorch/training_data/temp_o2_det_zoo-ts.pt'
-/
+         remin_emulator_path= '/g/data/jk72/ao2582/PyTorch/training_data/temp_o2_det_zoo-ts.pt' /
