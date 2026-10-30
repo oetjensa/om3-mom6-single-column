@@ -16,7 +16,7 @@ modules:
 queue: normalsr
 ncpus: 2
 walltime: 1:00:00
-jobname: wombatlite_hy
+jobname: wombatlite_control
 
 model: access-om3
 #exe: access-om3-MOM
