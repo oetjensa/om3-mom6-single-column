@@ -6,14 +6,14 @@
     <history>Created by ek4684 (ezhilsabareesh8) on 2026-04-15, using https://github.com/ACCESS-NRI/om3-scripts/blob/f46895cbbe5df16865b236c002394cc37a9be31f../om3-scripts-new/data_stream_xml_generation/generate_xml_drof_jra55.py: ../om3-scripts-new/data_stream_xml_generation/generate_xml_drof_jra55.py 1958 2024</history>
   </metadata>
   <stream_info name="JRA55do.FRIVER">
-    <taxmode>extend</taxmode>
+    <taxmode>cycle</taxmode>
     <dtlimit>1.e30</dtlimit>
     <tintalgo>linear</tintalgo>
     <offset>0</offset>
     <readmode>single</readmode>
     <mapalgo>bilinear</mapalgo>
     <year_first>1958</year_first>
-    <year_last>2024</year_last>
+    <year_last>2023</year_last>
     <year_align>1958</year_align>
     <vectors>null</vectors>
     <meshfile>./INPUT/JRA55do-drof-ESMFmesh.nc</meshfile>
@@ -92,14 +92,14 @@
     </datavars>
   </stream_info>
   <stream_info name="JRA55do.LICALVF">
-    <taxmode>extend</taxmode>
+    <taxmode>cycle</taxmode>
     <dtlimit>1.e30</dtlimit>
     <tintalgo>linear</tintalgo>
     <offset>0</offset>
     <readmode>single</readmode>
     <mapalgo>bilinear</mapalgo>
     <year_first>1958</year_first>
-    <year_last>2024</year_last>
+    <year_last>2023</year_last>
     <year_align>1958</year_align>
     <vectors>null</vectors>
     <meshfile>./INPUT/JRA55do-drof-ESMFmesh.nc</meshfile>

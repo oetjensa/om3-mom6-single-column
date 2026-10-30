@@ -6,12 +6,12 @@
     <history>Created by ek4684 (ezhilsabareesh8) on 2026-04-15, using https://github.com/ACCESS-NRI/om3-scripts/blob/f46895cbbe5df16865b236c002394cc37a9be31f../om3-scripts-new/data_stream_xml_generation/generate_xml_datm_jra55.py: ../om3-scripts-new/data_stream_xml_generation/generate_xml_datm_jra55.py 1958 2024</history>
   </metadata>
   <stream_info name="JRA55do.PRSN">
-    <taxmode>extend</taxmode>
+    <taxmode>cycle</taxmode>
     <dtlimit>1.e30</dtlimit>
     <readmode>single</readmode>
     <mapalgo>bilinear</mapalgo>
     <year_first>1958</year_first>
-    <year_last>2024</year_last>
+    <year_last>2023</year_last>
     <year_align>1958</year_align>
     <vectors>null</vectors>
     <meshfile>./INPUT/JRA55do-datm-ESMFmesh.nc</meshfile>
@@ -92,12 +92,12 @@
     <tintalgo>linear</tintalgo>
   </stream_info>
   <stream_info name="JRA55do.PRRN">
-    <taxmode>extend</taxmode>
+    <taxmode>cycle</taxmode>
     <dtlimit>1.e30</dtlimit>
     <readmode>single</readmode>
     <mapalgo>bilinear</mapalgo>
     <year_first>1958</year_first>
-    <year_last>2024</year_last>
+    <year_last>2023</year_last>
     <year_align>1958</year_align>
     <vectors>null</vectors>
     <meshfile>./INPUT/JRA55do-datm-ESMFmesh.nc</meshfile>
@@ -178,12 +178,12 @@
     <tintalgo>linear</tintalgo>
   </stream_info>
   <stream_info name="JRA55do.LWDN">
-    <taxmode>extend</taxmode>
+    <taxmode>cycle</taxmode>
     <dtlimit>1.e30</dtlimit>
     <readmode>single</readmode>
     <mapalgo>bilinear</mapalgo>
     <year_first>1958</year_first>
-    <year_last>2024</year_last>
+    <year_last>2023</year_last>
     <year_align>1958</year_align>
     <vectors>null</vectors>
     <meshfile>./INPUT/JRA55do-datm-ESMFmesh.nc</meshfile>
@@ -264,12 +264,12 @@
     <tintalgo>linear</tintalgo>
   </stream_info>
   <stream_info name="JRA55do.SWDN">
-    <taxmode>extend</taxmode>
+    <taxmode>cycle</taxmode>
     <dtlimit>1.e30</dtlimit>
     <readmode>single</readmode>
     <mapalgo>bilinear</mapalgo>
     <year_first>1958</year_first>
-    <year_last>2024</year_last>
+    <year_last>2023</year_last>
     <year_align>1958</year_align>
     <vectors>null</vectors>
     <meshfile>./INPUT/JRA55do-datm-ESMFmesh.nc</meshfile>
@@ -350,12 +350,12 @@
     <tintalgo>coszen</tintalgo>
   </stream_info>
   <stream_info name="JRA55do.Q_10">
-    <taxmode>limit</taxmode>
-    <dtlimit>1.0</dtlimit>
+    <taxmode>cycle</taxmode>
+    <dtlimit>1.e30</dtlimit>
     <readmode>single</readmode>
     <mapalgo>bilinear</mapalgo>
     <year_first>1958</year_first>
-    <year_last>2024</year_last>
+    <year_last>2023</year_last>
     <year_align>1958</year_align>
     <vectors>null</vectors>
     <meshfile>./INPUT/JRA55do-datm-ESMFmesh.nc</meshfile>
@@ -436,12 +436,12 @@
     <tintalgo>linear</tintalgo>
   </stream_info>
   <stream_info name="JRA55do.SLP_10">
-    <taxmode>limit</taxmode>
-    <dtlimit>1.0</dtlimit>
+    <taxmode>cycle</taxmode>
+    <dtlimit>1.e30</dtlimit>
     <readmode>single</readmode>
     <mapalgo>bilinear</mapalgo>
     <year_first>1958</year_first>
-    <year_last>2024</year_last>
+    <year_last>2023</year_last>
     <year_align>1958</year_align>
     <vectors>null</vectors>
     <meshfile>./INPUT/JRA55do-datm-ESMFmesh.nc</meshfile>
@@ -522,12 +522,12 @@
     <tintalgo>linear</tintalgo>
   </stream_info>
   <stream_info name="JRA55do.T_10">
-    <taxmode>limit</taxmode>
-    <dtlimit>1.0</dtlimit>
+    <taxmode>cycle</taxmode>
+    <dtlimit>1.e30</dtlimit>
     <readmode>single</readmode>
     <mapalgo>bilinear</mapalgo>
     <year_first>1958</year_first>
-    <year_last>2024</year_last>
+    <year_last>2023</year_last>
     <year_align>1958</year_align>
     <vectors>null</vectors>
     <meshfile>./INPUT/JRA55do-datm-ESMFmesh.nc</meshfile>
@@ -608,12 +608,12 @@
     <tintalgo>linear</tintalgo>
   </stream_info>
   <stream_info name="JRA55do.U_10">
-    <taxmode>limit</taxmode>
-    <dtlimit>1.0</dtlimit>
+    <taxmode>cycle</taxmode>
+    <dtlimit>1.e30</dtlimit>
     <readmode>single</readmode>
     <mapalgo>bilinear</mapalgo>
     <year_first>1958</year_first>
-    <year_last>2024</year_last>
+    <year_last>2023</year_last>
     <year_align>1958</year_align>
     <vectors>null</vectors>
     <meshfile>./INPUT/JRA55do-datm-ESMFmesh.nc</meshfile>
@@ -694,12 +694,12 @@
     <tintalgo>linear</tintalgo>
   </stream_info>
   <stream_info name="JRA55do.V_10">
-    <taxmode>limit</taxmode>
-    <dtlimit>1.0</dtlimit>
+    <taxmode>cycle</taxmode>
+    <dtlimit>1.e30</dtlimit>
     <readmode>single</readmode>
     <mapalgo>bilinear</mapalgo>
     <year_first>1958</year_first>
-    <year_last>2024</year_last>
+    <year_last>2023</year_last>
     <year_align>1958</year_align>
     <vectors>null</vectors>
     <meshfile>./INPUT/JRA55do-datm-ESMFmesh.nc</meshfile>
