@@ -18,9 +18,11 @@
 
 &generic_tracer_nml
          do_generic_tracer=.true.
-         do_generic_WOMBATlite=.true. /
+         do_generic_WOMBATlite_hy=.true. /
 
 &generic_wombatlite_nml
          do_check_c_conserve=.true.
+         do_check_fe_conserve=.true.
          do_emulator_shadow=.true.
+         do_emulator_run=.false.
          remin_emulator_path= '/g/data/jk72/ao2582/PyTorch/training_data/temp_o2_det_zoo-ts.pt' /

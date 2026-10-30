@@ -234,7 +234,7 @@ diag_table:
             reduction_method: mean
             module_name: generic_wombatlite
         fields:
-            #npp3d:
+            npp3d:
             #zsp3d:
             #radbio:
             #radmid:
@@ -298,7 +298,7 @@ diag_table:
             reduction_method: mean
             module_name: generic_wombatlite
         fields:
-            #pco2:
+            pco2:
             #det_sed_remin:
             #det_sed_depst:
             #detfe_sed_remin:
