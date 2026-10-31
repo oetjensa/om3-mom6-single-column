@@ -1,15 +1,15 @@
-# om3-mom6-single-column
+# om3-mom6-single-column for WOMBATlite_hy  
 
 This repository contains easily-relocatable single-column ACCESS-OM3-MOM6 configurations based on the single-column MOM6 configurations in the
 [`ocean_only/single_column` directory of the MOM6-examples repository](https://github.com/NOAA-GFDL/MOM6-examples/tree/dev/gfdl/ocean_only/single_column).
 
 The configurations here have been modified to:
 - use [ACCESS-OM3 MOM6](https://github.com/ACCESS-NRI/ACCESS-OM3) (with stub ice and wave components)
-- include [WOMBAT biogeochemistry](https://github.com/ACCESS-NRI/GFDL-generic-tracers)
+- include [WOMBATlite hybrid biogeochemistry](https://github.com/oetjensa/GFDL-generic-tracers/tree/wombatmid-hy/generic_tracers)
 - run with [Payu](https://github.com/payu-org/payu)
-- use ocean parameters based on those used in [ACCESS-OM3 25km configurations](https://github.com/ACCESS-NRI/access-om3-configs/tree/dev-MC_25km_jra_ryf%2Bwombatlite)
+- use ocean parameters based on those used in [ACCESS-OM3 25km configurations](https://github.com/ACCESS-NRI/access-om3-configs/tree/dev-MC_25km_jra_ryf%2Bwombatlite) in *cycle* mode to repeat after 2023  
 
-This default branch uses JRA55-do interannual forcing and WOMBATlite biogeochemistry. Other configurations are available in other branches in this repo.
+This default branch uses JRA55-do interannual forcing and WOMBATlite_hy biogeochemistry. Other configurations are available in other branches in this repo.  
 
 ## To run
 
