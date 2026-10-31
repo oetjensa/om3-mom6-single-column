@@ -210,7 +210,7 @@ diag_table:
         defaults:  # these can be overridden for individual fields below
             file_name_dimension: 3d  # descriptor for filename, e.g. 3d, 2d, scalar
             reduction_method: mean
-            module_name: generic_wombatlite
+            module_name: generic_wombatlite_hy
         fields:
             #alk:
             #caco3:
@@ -232,7 +232,7 @@ diag_table:
         defaults:  # these can be overridden for individual fields below
             file_name_dimension: 3d  # descriptor for filename, e.g. 3d, 2d, scalar
             reduction_method: mean
-            module_name: generic_wombatlite
+            module_name: generic_wombatlite_hy
         fields:
             npp3d:
             #zsp3d:
@@ -296,7 +296,7 @@ diag_table:
         defaults:  # these can be overridden for individual fields below
             file_name_dimension: 2d  # descriptor for filename, e.g. 3d, 2d, scalar
             reduction_method: mean
-            module_name: generic_wombatlite
+            module_name: generic_wombatlite_hy
         fields:
             pco2:
             #det_sed_remin:

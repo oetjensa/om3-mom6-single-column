@@ -29,52 +29,52 @@ ACCESS-OM3
 # 3d prognostic BGC fields
 
 "access-om3.mom6.3d.det.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "det", "det", "access-om3.mom6.3d.det.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatlite_hy", "det", "det", "access-om3.mom6.3d.det.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.3d.fe.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "fe", "fe", "access-om3.mom6.3d.fe.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatlite_hy", "fe", "fe", "access-om3.mom6.3d.fe.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.3d.o2.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "o2", "o2", "access-om3.mom6.3d.o2.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatlite_hy", "o2", "o2", "access-om3.mom6.3d.o2.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.3d.phy.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "phy", "phy", "access-om3.mom6.3d.phy.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatlite_hy", "phy", "phy", "access-om3.mom6.3d.phy.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.3d.zoo.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "zoo", "zoo", "access-om3.mom6.3d.zoo.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatlite_hy", "zoo", "zoo", "access-om3.mom6.3d.zoo.1day.mean.%4yr", "all", "average", "none", 2
 
 
 # 3d diagnostic BGC fields
 
 "access-om3.mom6.3d.npp3d.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "npp3d", "npp3d", "access-om3.mom6.3d.npp3d.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatlite_hy", "npp3d", "npp3d", "access-om3.mom6.3d.npp3d.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.3d.zooeps.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "zooeps", "zooeps", "access-om3.mom6.3d.zooeps.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatlite_hy", "zooeps", "zooeps", "access-om3.mom6.3d.zooeps.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.3d.zoograzphy.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "zoograzphy", "zoograzphy", "access-om3.mom6.3d.zoograzphy.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatlite_hy", "zoograzphy", "zoograzphy", "access-om3.mom6.3d.zoograzphy.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.3d.zoograzdet.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "zoograzdet", "zoograzdet", "access-om3.mom6.3d.zoograzdet.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatlite_hy", "zoograzdet", "zoograzdet", "access-om3.mom6.3d.zoograzdet.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.3d.reminr.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "reminr", "reminr", "access-om3.mom6.3d.reminr.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatlite_hy", "reminr", "reminr", "access-om3.mom6.3d.reminr.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.3d.reminr_nn.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "reminr_nn", "reminr_nn", "access-om3.mom6.3d.reminr_nn.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatlite_hy", "reminr_nn", "reminr_nn", "access-om3.mom6.3d.reminr_nn.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.3d.detremi.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "detremi", "detremi", "access-om3.mom6.3d.detremi.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatlite_hy", "detremi", "detremi", "access-om3.mom6.3d.detremi.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.3d.det_vmove.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "det_vmove", "det_vmove", "access-om3.mom6.3d.det_vmove.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatlite_hy", "det_vmove", "det_vmove", "access-om3.mom6.3d.det_vmove.1day.mean.%4yr", "all", "average", "none", 2
 
 
 # 2d diagnostic BGC fields
 
 "access-om3.mom6.2d.pco2.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "pco2", "pco2", "access-om3.mom6.2d.pco2.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatlite_hy", "pco2", "pco2", "access-om3.mom6.2d.pco2.1day.mean.%4yr", "all", "average", "none", 2
 
 "access-om3.mom6.2d.zeuphot.1day.mean.%4yr", 1, "days", 1, "days", "time", 1, "years"
-"generic_wombatlite", "zeuphot", "zeuphot", "access-om3.mom6.2d.zeuphot.1day.mean.%4yr", "all", "average", "none", 2
+"generic_wombatlite_hy", "zeuphot", "zeuphot", "access-om3.mom6.2d.zeuphot.1day.mean.%4yr", "all", "average", "none", 2
